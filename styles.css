@@ -70,7 +70,7 @@ h2 {
 
 /* STEAM LINK */
 .steam-link {
-    display: inline-block;
+    display: block;
     margin: 15px 0;
     color: #00ffcc;
     font-weight: bold;
@@ -78,7 +78,7 @@ h2 {
 }
 
 .ps-link {
-    display: inline-block;
+    display: block;
     margin: 15px 0;
     color: #00ffcc;
     font-weight: bold;
@@ -86,7 +86,7 @@ h2 {
 }
 
 .xbox-link {
-    display: inline-block;
+    display: block;
     margin: 15px 0;
     color: #00ffcc;
     font-weight: bold;
@@ -94,7 +94,7 @@ h2 {
 }
 
 .github-link {
-    display: inline-block;
+    display: block;
     margin: 15px 0;
     color: #00ffcc;
     font-weight: bold;
@@ -110,6 +110,10 @@ h2 {
 }
 
 .xbox-link:hover {
+    text-decoration: underline;
+}
+
+.github-link:hover {
     text-decoration: underline;
 }
 
