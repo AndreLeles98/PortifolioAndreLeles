@@ -68,31 +68,10 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* STEAM LINK */
-.steam-link {
-    display: block;
-    margin: 15px 0;
-    color: #00ffcc;
-    font-weight: bold;
-    text-decoration: none;
-}
 
-.ps-link {
-    display: block;
-    margin: 15px 0;
-    color: #00ffcc;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.xbox-link {
-    display: block;
-    margin: 15px 0;
-    color: #00ffcc;
-    font-weight: bold;
-    text-decoration: none;
-}
-
+.steam-link,
+.ps-link,
+.xbox-link,
 .github-link {
     display: block;
     margin: 15px 0;
@@ -101,18 +80,9 @@ h2 {
     text-decoration: none;
 }
 
-.steam-link:hover {
-    text-decoration: underline;
-}
-
-.ps-link:hover {
-    text-decoration: underline;
-}
-
-.xbox-link:hover {
-    text-decoration: underline;
-}
-
+.steam-link:hover,
+.ps-link:hover, 
+.xbox-link:hover,
 .github-link:hover {
     text-decoration: underline;
 }
