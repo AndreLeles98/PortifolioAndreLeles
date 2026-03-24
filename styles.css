@@ -177,3 +177,25 @@ a {
     transform: scale(1.08);
     filter: grayscale(0%);
 }
+
+.language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.language-switch img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #222;
+    transition: 0.2s;
+}
+
+.language-switch img:hover {
+    transform: scale(1.1);
+    border-color: #00ffcc;
+}

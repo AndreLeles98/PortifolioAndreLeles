@@ -11,9 +11,16 @@
 <body>
 
     <header class="hero">
+        <div class="language-switch">
+            <img src="img/br.png" alt="Português" onclick="setLanguage('pt')">
+            <img src="img/us.png" alt="English" onclick="setLanguage('en')">
+        </div>
         <h1>André Leles</h1>
-        <h2>Gameplay Programmer</h2>
-        <p>
+        <h2 data-en="Gameplay Programmer" data-pt="Programador de Gameplay">
+            Gameplay Programmer
+        </h2>
+        <p data-en="Gameplay programmer focused on building gameplay systems and development tools for games."
+            data-pt="Programador de gameplay focado em construir sistemas de gameplay e ferramentas para jogos.">
             Gameplay programmer focused on building gameplay systems and development tools for games.
         </p>
 
@@ -23,11 +30,16 @@
     </header>
 
     <section class="container">
-        <h2>Featured Project</h2>
+        <h2 data-en="Featured Project" data-pt="Projeto Principal">
+            Featured Project
+        </h2>
 
         <div class="project">
 
-    <h3>BIT.TRIP RERUNNER — In-Game Level Editor System</h3>
+    <h3 data-en="BIT.TRIP RERUNNER — In-Game Level Editor System"
+        data-pt="BIT.TRIP RERUNNER — Sistema de Editor de Fases">
+        BIT.TRIP RERUNNER — In-Game Level Editor System
+    </h3>
 
     <div class="company-logos">
             <a href="https://gamecraftstudios.com/" target="_blank">
@@ -38,50 +50,99 @@
             </a>
         </div>
 
-        <p class="highlight">
+        <p class="highlight"
+            data-en="Worked in collaboration with Gamecraft Studios and Choice Provisions on a shipped commercial title."
+            data-pt="Trabalhei em colaboração com a Gamecraft Studios e Choice Provisions em um jogo comercial publicado.">
             Worked in collaboration with Gamecraft Studios and Choice Provisions on a shipped commercial title.
         </p>
 
-        <a class="steam-link" 
-        href="https://store.steampowered.com/app/2222540/BITTRIP_RERUNNER/" 
-        target="_blank">
-        View Published Game on Steam →
+        <a class="steam-link"
+            data-en="View Published Game on Steam →"
+            data-pt="Ver jogo publicado na Steam →">
+            View Published Game on Steam →
         </a>
 
         <div class="project-image">
             <img src="img/Editor.jpeg" alt="Level editor system interface">
         </div>
 
-        <p class="highlight">
-            Designed and implemented an in-game level editor system,
-            enabling real-time level creation, modification, and testing.
+        <p class="highlight"
+        data-en="Designed and implemented an in-game level editor system, enabling real-time level creation, modification, and testing."
+        data-pt="Projetei e implementei um sistema de editor de fases dentro do jogo, permitindo criação, modificação e testes em tempo real.">
+            Designed and implemented an in-game level editor system, enabling real-time level creation, modification, and testing.
         </p>
 
-        <p class="highlight">
+        <p class="highlight"
+        data-en="Contributed to a shipped commercial title available on Steam."
+        data-pt="Contribuí para um jogo comercial publicado disponível na Steam.">
             Contributed to a shipped commercial title available on Steam.
         </p>
 
-        <h4>Key Contributions</h4>
+        <h4 data-en="Key Contributions" data-pt="Principais Contribuições">
+            Key Contributions
+        </h4>
+
         <ul>
-            <li>Developed a real-time level editor with seamless transition between editing and gameplay modes for rapid iteration and playtesting</li>
-            <li>Implemented core editor systems, including grid-based placement aligned to gameplay rhythm and dynamic content insertion</li>
-            <li>Designed and implemented an undo/redo system for editor actions</li>
-            <li>Built selection tools supporting multi-selection, movement, and duplication workflows</li>
-            <li>Implemented level validation systems with real-time visual feedback for invalid placements</li>
-            <li>Developed density layer systems (LOW / MEDIUM / HIGH) to control gameplay complexity</li>
-            <li>Built editor UI systems, including custom UI shaders</li>
-            <li>Implemented player tracking tools during playtesting (path visualization)</li>
-            <li>Designed reusable pattern systems to accelerate level creation workflows</li>
-            <li>Implemented multi-input support (keyboard, mouse, and gamepad) for full editor interaction</li>
-            <li>Added real-time visualization modes (silhouette, in-game view, world style variations)</li>
-            <li>Contributed to save system integration for editor data and workflows</li>
+            <li data-en="Developed a real-time level editor with seamless transition between editing and gameplay modes for rapid iteration and playtesting"
+                data-pt="Desenvolvi um editor de fases com transição fluida entre modos de edição e gameplay para rápida iteração e testes">
+            </li>
+
+            <li data-en="Implemented core editor systems, including grid-based placement aligned to gameplay rhythm and dynamic content insertion"
+                data-pt="Implementei sistemas centrais do editor, incluindo posicionamento em grid alinhado ao ritmo e inserção dinâmica de conteúdo">
+            </li>
+
+            <li data-en="Designed and implemented an undo/redo system for editor actions"
+                data-pt="Projetei e implementei um sistema de desfazer/refazer para ações do editor">
+            </li>
+
+            <li data-en="Built selection tools supporting multi-selection, movement, and duplication workflows"
+                data-pt="Desenvolvi ferramentas de seleção com suporte a múltiplos objetos, movimentação e duplicação">
+            </li>
+
+            <li data-en="Implemented level validation systems with real-time visual feedback for invalid placements"
+                data-pt="Implementei sistemas de validação de fases com feedback visual em tempo real para posicionamentos inválidos">
+            </li>
+
+            <li data-en="Developed density layer systems (LOW / MEDIUM / HIGH) to control gameplay complexity"
+                data-pt="Desenvolvi sistema de camadas de densidade (BAIXO / MÉDIO / ALTO) para controle da complexidade do gameplay">
+            </li>
+
+            <li data-en="Built editor UI systems, including custom UI shaders"
+                data-pt="Desenvolvi sistemas de interface do editor, incluindo shaders personalizados">
+            </li>
+
+            <li data-en="Implemented player tracking tools during playtesting (path visualization)"
+                data-pt="Implementei ferramentas de rastreamento do jogador durante testes (visualização de percurso)">
+            </li>
+
+            <li data-en="Designed reusable pattern systems to accelerate level creation workflows"
+                data-pt="Projetei sistemas de padrões reutilizáveis para acelerar a criação de fases">
+            </li>
+
+            <li data-en="Implemented multi-input support (keyboard, mouse, and gamepad) for full editor interaction"
+                data-pt="Implementei suporte a múltiplos inputs (teclado, mouse e controle) para interação completa com o editor">
+            </li>
+
+            <li data-en="Added real-time visualization modes (silhouette, in-game view, world style variations)"
+                data-pt="Adicionei modos de visualização em tempo real (silhueta, visão de gameplay e variações de estilo)">
+            </li>
+
+            <li data-en="Contributed to save system integration for editor data and workflows"
+                data-pt="Contribuí para a integração do sistema de salvamento de dados e fluxos do editor">
+            </li>
         </ul>
 
-        <p class="tech">
-            <strong>Technologies:</strong> Unreal Engine 5, C++, Blueprints
+        <p class="tech"
+            data-en="Technologies: Unreal Engine 5, C++, Blueprints"
+            data-pt="Tecnologias: Unreal Engine 5, C++, Blueprints">
+                <strong>Technologies:</strong> Unreal Engine 5, C++, Blueprints
         </p>
 
-        <h4>References</h4>
+        <h4
+            data-en="References"
+            data-pt="Referências">
+            References
+        </h4>
         <p><strong>Daniel Zaidan</strong><br>
         Phone: +55 31 99977-1696 (WhatsApp)</p>
 
@@ -100,15 +161,22 @@
     </section>
 
     <section class="container">
-        <h2>Technical Projects</h2>
+        <h2 data-en="Technical Projects" data-pt="Projetos Técnicos">
+            Technical Projects
+        </h2>
 
         <div class="project">
 
-            <h3>Software Renderer — Graphics Pipeline Study</h3>
+            <h3 data-en="Software Renderer — Graphics Pipeline Study"
+                data-pt="Renderizador em Software — Estudo do Pipeline Gráfico">
+                Software Renderer — Graphics Pipeline Study
+            </h3>
 
             <a class="github-link" 
-               href="https://github.com/AndreLeles98/Software-Render" 
-               target="_blank">
+                href="https://github.com/AndreLeles98/Software-Render" 
+                target="_blank"
+                data-en="View on Github →"
+                data-pt="Ver no Github →">
                View on Github →
             </a>
 
@@ -116,27 +184,59 @@
                 <img src="img/renderer.jpeg" alt="Software renderer output">
             </div>
 
-            <p class="highlight">
-                Built a software renderer from scratch in C to explore the full rendering pipeline,
-                from 3D transformations to rasterization and shading.
+            <p class="highlight"
+            data-en="Built a software renderer from scratch in C to explore the full rendering pipeline, from 3D transformations to rasterization and shading."
+            data-pt="Desenvolvi um renderizador em software do zero em C para explorar todo o pipeline gráfico, desde transformações 3D até rasterização e shading.">
+                Built a software renderer from scratch in C to explore the full rendering pipeline, from 3D transformations to rasterization and shading.
             </p>
 
-            <h4>Key Features</h4>
+            <h4 data-en="Core Features" data-pt="Principais Funcionalidades">
+            Core Features
+            </h4>
+
             <ul>
-                <li>Implemented full transformation pipeline (model, view, projection matrices)</li>
-                <li>Developed custom OBJ loader and binary exporter for optimized data access</li>
-                <li>Built triangle rasterization pipeline with pixel-level control</li>
-                <li>Implemented Z-buffer for depth testing</li>
-                <li>Implemented back-face culling and frustum culling</li>
-                <li>Implemented perspective-correct interpolation</li>
-                <li>Supported multiple rendering modes: wireframe, solid color, and textured</li>
-                <li>Implemented flat shading model</li>
-                <li>Handled basic clipping and screen-space transformations</li>
+                <li data-en="Implemented full transformation pipeline (model, view, projection matrices)"
+                    data-pt="Implementei o pipeline completo de transformações (matrizes de modelo, visão e projeção)">
+                </li>
+
+                <li data-en="Developed custom OBJ loader and binary exporter for optimized data access"
+                    data-pt="Desenvolvi loader de OBJ e exportador binário para acesso otimizado aos dados">
+                </li>
+
+                <li data-en="Built triangle rasterization pipeline with pixel-level control"
+                    data-pt="Desenvolvi pipeline de rasterização de triângulos com controle em nível de pixel">
+                </li>
+
+                <li data-en="Implemented Z-buffer for depth testing"
+                    data-pt="Implementei Z-buffer para teste de profundidade">
+                </li>
+
+                <li data-en="Implemented back-face culling and frustum culling"
+                    data-pt="Implementei back-face culling e frustum culling">
+                </li>
+
+                <li data-en="Implemented perspective-correct interpolation"
+                    data-pt="Implementei interpolação com correção de perspectiva">
+                </li>
+
+                <li data-en="Supported multiple rendering modes: wireframe, solid color, and textured"
+                    data-pt="Suporte a múltiplos modos de renderização: wireframe, cor sólida e texturizado">
+                </li>
+
+                <li data-en="Implemented flat shading model"
+                    data-pt="Implementei modelo de flat shading">
+                </li>
+
+                <li data-en="Handled basic clipping and screen-space transformations"
+                    data-pt="Implementei clipping básico e transformações para espaço de tela">
+                </li>
             </ul>
 
-            <p class="tech">
-                <strong>Technologies:</strong> C, Custom Graphics Pipeline
-            </p>
+    <p class="tech"
+    data-en="Technologies: C, Custom Graphics Pipeline"
+    data-pt="Tecnologias: C, Pipeline Gráfico Customizado">
+        <strong data-en="Technologies:" data-pt="Tecnologias:">Technologies:</strong> C, Custom Graphics Pipeline
+    </p>
 
         </div>
     </section>
@@ -158,6 +258,8 @@
         <h2>Contact</h2>
         <p>Email: andre.leles.br@gmail.com</p>
     </section>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
