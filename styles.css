@@ -77,6 +77,14 @@ h2 {
     text-decoration: none;
 }
 
+.github-link {
+    display: inline-block;
+    margin: 15px 0;
+    color: #00ffcc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .steam-link:hover {
     text-decoration: underline;
 }
