@@ -185,30 +185,21 @@ a {
 
     display: flex;
     gap: 10px;
-
-    width: auto;
-    height: auto;
-
     align-items: center;
 }
 
 .language-switch img {
-    width: 30px;
-    height: 30px;
-    max-width: none;
-    max-height: none;
+    width: 32px;
+    height: auto; /* 🔥 ESSENCIAL */
 
-    display: inline-block;
-
-    object-fit: contain;
-
-    flex-shrink: 0;
+    display: block;
 
     cursor: pointer;
     border-radius: 3px;
     border: 1px solid #222;
     transition: 0.2s;
 }
+
 .language-switch img:hover {
     transform: scale(1.1);
     border-color: #00ffcc;
