@@ -158,13 +158,13 @@ a {
 
 .company-logos {
     display: flex;
-    gap: 80px;
+    gap: 40px;
     align-items: center;
     margin: 15px 0;
 }
 
 .company-logos img {
-    height: 100px;
+    height: 60px;
     opacity: 0.9;
     transition: 0.3s;
     filter: grayscale(20%);
