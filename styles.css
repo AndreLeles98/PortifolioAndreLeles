@@ -105,6 +105,14 @@ h2 {
     text-decoration: underline;
 }
 
+.ps-link:hover {
+    text-decoration: underline;
+}
+
+.xbox-link:hover {
+    text-decoration: underline;
+}
+
 /* SINGLE IMAGE */
 .project-image {
     margin: 20px 0;
