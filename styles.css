@@ -184,11 +184,12 @@ a {
     right: 20px;
     display: flex;
     gap: 10px;
+    z-index: 10;
 }
-
 .language-switch img {
-    width: 30px;
-    height: 20px;
+    width: 30px !important;
+    height: 20px !important;
+    object-fit: cover;
     cursor: pointer;
     border-radius: 3px;
     border: 1px solid #222;
