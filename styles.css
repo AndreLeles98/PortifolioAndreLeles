@@ -77,6 +77,22 @@ h2 {
     text-decoration: none;
 }
 
+.ps-link {
+    display: inline-block;
+    margin: 15px 0;
+    color: #00ffcc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.xbox-link {
+    display: inline-block;
+    margin: 15px 0;
+    color: #00ffcc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .github-link {
     display: inline-block;
     margin: 15px 0;
