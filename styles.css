@@ -158,16 +158,18 @@ a {
 
 .company-logos {
     display: flex;
-    gap: 40px;
+    gap: 80px;
     align-items: center;
     margin: 15px 0;
 }
 
 .company-logos img {
-    height: 60px;
+    height: 100px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
     opacity: 0.9;
     transition: 0.3s;
-    filter: grayscale(20%);
 }
 
 .company-logos img:hover {
